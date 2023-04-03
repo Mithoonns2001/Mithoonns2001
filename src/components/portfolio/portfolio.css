@@ -1,0 +1,76 @@
+#portfolio {
+    margin-bottom: 2cm;
+  }
+
+#portfolio {
+    margin-top: 8rem;
+  }
+  
+  #portfolio h5 {
+    text-align: center;
+    color: var(--color-light);
+  }
+  
+  #portfolio h2 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+  }
+  
+  .portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+/*   
+  .portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  
+  .portfolio__item h3 {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio__item p {
+    font-size: 0.7rem; 
+    margin-bottom: 2rem;
+    color: var(--color-light);
+  }
+  
+  .portfolio__item a.btn {
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+
+   */
+
+   .portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex; /* add display flex */
+    flex-direction: column; /* add flex direction column */
+  }
+  
+  .portfolio__item h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio__item p {
+    font-size: 0.7rem;
+    margin-bottom: 2rem; /* change margin-bottom to auto */
+    color: var(--color-light);
+  }
+  
+  .portfolio__item a.btn {
+    width: 100%;
+    margin-top: auto; /* add margin-top: auto to the button */
+  }
+  

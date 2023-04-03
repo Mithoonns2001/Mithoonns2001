@@ -1,0 +1,48 @@
+#contact {
+    margin-bottom: 1cm;
+  }
+
+.contact__container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact__form {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .contact__form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact__form-group label {
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  
+  .contact__form-group input,
+  .contact__form-group textarea {
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    background: var(--color-bg-variant);
+    border: none;
+    color: var(--color-white);
+  }
+  
+  .contact__form-group input::placeholder,
+  .contact__form-group textarea::placeholder {
+    color: var(--color-light);
+  }
+  
+  .contact__form-group textarea {
+    min-height: 200px;
+    resize: vertical;
+  }
+  
+  .btn-primary {
+    margin-top: 1rem;
+  }
+  
