@@ -5,12 +5,16 @@ footer {
   
   .footer__container {
     display: flex;
+    text-align: center;
     justify-content: space-between;
     align-items: center;
   }
-  
+  .footer__content{
+    margin-bottom: 2rem;
+  }
   .footer__content p {
     font-size: 0.9rem;
+    text-align: center;
     color: white;
   }
   
@@ -38,6 +42,9 @@ footer {
     .footer__container {
       flex-direction: column;
       text-align: center;
+    }
+    .footer__content{
+      margin-bottom: 5rem;
     }
   
     .footer__content p {
