@@ -15,7 +15,7 @@ footer {
   .footer__content p {
     font-size: 0.9rem;
     text-align: center;
-    color: white;
+    color: var(--color-bg-variant2);
   }
   
   .footer__socials {
@@ -29,12 +29,12 @@ footer {
   
   .footer__socials a {
     font-size: 0.9rem;
-    color: var(--color-light);
+    color: rgb(222, 222, 222);
     transition: var(--transition);
   }
   
   .footer__socials a:hover {
-    color: var(--color-white);
+    color: rgb(255, 255, 255);
   }
   
   /* Media queries for smaller devices */

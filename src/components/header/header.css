@@ -11,6 +11,9 @@ header{
     position: relative;
 }
 
+.hh4{
+    color: var(--color-primary);
+}
 /* CTA*/
 
 .cta{

@@ -8,8 +8,10 @@
   
   #portfolio h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-primary-variant2);
   }
+  
+
   
   #portfolio h2 {
     text-align: center;
@@ -49,6 +51,9 @@
 
    */
 
+.abouth5{
+    color: var(--color-primary-variant2);
+}
    .portfolio__item {
     background: var(--color-bg-variant);
     padding: 2rem;

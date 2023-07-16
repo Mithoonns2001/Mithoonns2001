@@ -27,37 +27,27 @@ const App = () => {
     <canvas className="alx-canvas" id="pretty-bg" width="1361" height="200"></canvas>
   </div>
   
-      {/* Header Section */}
       <div className="contact-section">
       <Header/>
       </div>
 
-
-
-      {/* Navigation Section */}
       <Nav />
 
-      {/* About Section */}
       <div className="contact-section">
         <About />
       </div>
 
-      {/* Experience Section */}
       <div className="contact-section">
         <Experience />
       </div>
 
-      {/* Portfolio Section */}
       <div className="contact-section">
         <Portfolio />
       </div>
 
-      {/* Contact Section */}
       <div className="contact-section">
         <Contact />
       </div>
-
-      {/* Footer Section */}
 
       <div className="header-buttons">
         <Footer />

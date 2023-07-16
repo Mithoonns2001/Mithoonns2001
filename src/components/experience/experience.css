@@ -24,10 +24,12 @@
 .experience__container> div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    color: var(--color-white);
 
 }
-
+.abouth5{
+    color: var(--color-primary-variant2);
+}
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
