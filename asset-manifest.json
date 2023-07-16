@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Mithoonns2001/static/css/main.f869012c.css",
-    "main.js": "/Mithoonns2001/static/js/main.2e5be11e.js",
+    "main.css": "/Mithoonns2001/static/css/main.da478f53.css",
+    "main.js": "/Mithoonns2001/static/js/main.514544c0.js",
     "static/media/ai.png": "/Mithoonns2001/static/media/ai.8562fc5466d18c50d5a4.png",
     "static/media/me.png": "/Mithoonns2001/static/media/me.8339544cffcdb735fde5.png",
     "static/media/mithoon_resume.pdf": "/Mithoonns2001/static/media/mithoon_resume.b5de9296e692c8a3801e.pdf",
     "index.html": "/Mithoonns2001/index.html",
-    "main.f869012c.css.map": "/Mithoonns2001/static/css/main.f869012c.css.map",
-    "main.2e5be11e.js.map": "/Mithoonns2001/static/js/main.2e5be11e.js.map"
+    "main.da478f53.css.map": "/Mithoonns2001/static/css/main.da478f53.css.map",
+    "main.514544c0.js.map": "/Mithoonns2001/static/js/main.514544c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f869012c.css",
-    "static/js/main.2e5be11e.js"
+    "static/css/main.da478f53.css",
+    "static/js/main.514544c0.js"
   ]
 }
