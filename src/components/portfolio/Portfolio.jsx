@@ -35,11 +35,11 @@ const projects = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Work</h5>
-      <h2>Portfolio</h2>
-      <div className="container portfolio__container">
+      <h5 className='header-buttons'>My Work</h5>
+      <h2 className='header-buttons'>Portfolio</h2>
+      <div className="container portfolio__container ">
         {projects.map((project, index) => (
-          <div key={index} className="portfolio__item">
+          <div key={index} className="portfolio__item header-buttons">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <a href={project.githubLink} target="_blank" rel="noreferrer" className="btn btn-primary">
