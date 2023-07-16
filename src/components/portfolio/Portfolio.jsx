@@ -18,18 +18,31 @@ const projects = [
     githubLink: 'https://github.com/Mithoonns2001/Crime-Reporting-System'
   },
   {
-    title: 'DECENTRALIZED E-COMMERCE PLATFORM ',
-    description: 'A Web3 e-commerce platform built for a hackathon that provides an e-commerce platform for electronic items, assets, gadgets, etc. In this project, we also created a new token using Solidity. ',
-    githubLink: 'https://github.com/Mithoonns2001/'
+    title: 'CONNECT CRM',
+    description: 'Taxi Super is a ride-hailing mobile application developed using the Flutter framework. It allows users to book rides and track drivers.',
+    githubLink: 'https://github.com/Mithoonns2001/tagxi-app'
   },
   {
     title: 'VIRTUAL MOUSE GESTURE CONTROL',
     description: 'A computer vision-based project that allows users to control the cursor on a computer screen using hand gestures.',
     githubLink: 'https://github.com/Mithoonns2001/Virtual-Mouse-Gesture-Control-'
   },
-
+  {
+    title: 'QUEST TRACKER ',
+    description: 'Quest Tracker is a hierarchical task assignment and tracking system that allows users with different roles (CEO, managers, staff) to manage and track tasks in a company.',
+    githubLink: 'https://github.com/Mithoonns2001/QUEST-TRACKER'
+  },
+  {
+    title: 'DECENTRALIZED E-COMMERCE PLATFORM ',
+    description: 'A Web3 e-commerce platform built for a hackathon that provides an e-commerce platform for electronic items, assets, gadgets, etc. In this project, we also created a new token using Solidity. ',
+    githubLink: 'https://github.com/Mithoonns2001/DECENTRALIZED-E-COMMERCE-PLATFORM'
+  },
+  {
+    title: 'CONNECT CRM',
+    description: 'Connect CRM is a Customer Relationship Management (CRM) web application developed using the Laravel framework in PHP. It provides tools to manage customer interactions, sales, and leads for businesses.',
+    githubLink: 'https://github.com/Mithoonns2001/connectscrm'
+  },
   
-  // Add more projects as needed
 ];
 
 const Portfolio = () => {
