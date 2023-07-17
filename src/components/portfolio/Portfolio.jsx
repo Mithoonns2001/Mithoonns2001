@@ -18,7 +18,7 @@ const projects = [
     githubLink: 'https://github.com/Mithoonns2001/Crime-Reporting-System'
   },
   {
-    title: 'CONNECT CRM',
+    title: 'TAXI SUPER',
     description: 'Taxi Super is a ride-hailing mobile application developed using the Flutter framework. It allows users to book rides and track drivers.',
     githubLink: 'https://github.com/Mithoonns2001/tagxi-app'
   },
