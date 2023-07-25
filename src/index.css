@@ -32,13 +32,13 @@
   --color-bg:  #d8cfd0;
   /* --color-bg: #ffffff; */
 
-  --color-bg-variant: #81464dbe;
+  --color-bg-variant: #81464da9;
   --color-primary:#81464d;
   --color-primary-variant:rgb(6, 0, 0);
   --color-primary-variant2:rgba(0, 0, 0, 0.807);
 
   --color-white:#3b3938 ;
-  --color-light:#b1a6a4;
+  --color-light:#ebe5e5;
   --transition: all 400ms ease;
   --container-width-lg:75%;
   --container-width-md:86%;
