@@ -6,12 +6,19 @@ import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+// import { initializeFluidSimulation } from './fluidWave'; // Import the fluid simulation functionality
+
 // import CanvasAnimation from './components/CanvasAnimation/CanvasAnimation';
 
 const App = () => {
   useEffect(() => {
+    // initializeFluidSimulation();
     const script = document.createElement('script');
     script.src = 'https://www.innovtouch.com/innovtouch/themes/innov/js/fluidWave.js';
+    // script.src = 'fluidWave.js';
+    // script.src = 'https://raw.githubusercontent.com/Mithoonns2001/dataset/main/fluidWave.js';
+
+
     script.async = true;
 
     document.head.appendChild(script);
@@ -22,7 +29,8 @@ const App = () => {
   }, []);
 
   return (
-    <>        
+    <>    
+        
     <div className="slider">
     <canvas className="alx-canvas" id="pretty-bg" width="1361" height="200"></canvas>
   </div>
@@ -56,5 +64,6 @@ const App = () => {
     </>
   );
 };
+
 
 export default App;

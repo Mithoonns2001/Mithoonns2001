@@ -48,8 +48,8 @@
 
 /* ============================= MEDIA QUERIES (MEDIUM DEVICES) ========================== */
 @media screen and (max-width: 1024px) {
-    .exxperience__container{
-        grid-template-columns: 1fr;
+    .experience__container {
+        grid-template-columns: auto; /* Change this line */
     }
 
     .experience__container > div {
@@ -58,15 +58,14 @@
         margin: 0 auto;
     }
 
-    .experience__content{
-        padding: 1rem ;
+    .experience__content {
+        padding: 1rem;
     }
-
 }
 
 /* ============================= MEDIA QUERIES (SMALL DEVICES) ========================== */
-@media screen and (max-width:600px){
-    .experience__container{
+@media screen and (max-width: 600px) {
+    .experience__container {
         gap: 1rem;
     }
 
@@ -74,5 +73,4 @@
         width: 100%;
         padding: 2rem 1rem;
     }
-    
 }
